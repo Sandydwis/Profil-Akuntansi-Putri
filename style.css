@@ -1,0 +1,141 @@
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #e3f2fd, #fafafa);
+  color: #333;
+}
+
+header {
+  background: linear-gradient(90deg, #002d72, #0077b6);
+  color: white;
+  text-align: center;
+  padding: 100px 20px 80px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.25);
+}
+
+header h1 {
+  font-family: "Playfair Display", serif;
+  margin-bottom: 15px;
+  font-size: 4em;
+  letter-spacing: 2px;
+  background: linear-gradient(90deg, #ffffff, #a5d8ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 3px 8px rgba(255, 255, 255, 0.25);
+}
+
+header p {
+  font-size: 1.2em;
+  color: #d0f0ff;
+  letter-spacing: 0.5px;
+}
+#foto-kegiatan {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+#foto-kegiatan h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: #004aad;
+  font-family: "Playfair Display", serif;
+}
+
+#foto-kegiatan img {
+  width: 80%;
+  max-width: 700px;
+  border-radius: 25px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+  border: 4px solid #fff;
+  transition: all 0.4s ease;
+}
+
+#foto-kegiatan img:hover {
+  transform: scale(1.06);
+}
+
+#deskripsi {
+  background-color: white;
+  margin: 60px auto;
+  padding: 50px 70px;
+  max-width: 950px;
+  border-radius: 25px;
+  box-shadow: 0 5px 30px rgba(0,0,0,0.1);
+}
+
+#deskripsi h2 {
+  color: #004aad;
+  margin-bottom: 25px;
+  font-family: "Playfair Display", serif;
+  font-size: 1.8em;
+}
+
+#deskripsi p {
+  line-height: 1.9;
+  text-align: justify;
+  color: #444;
+  font-size: 1.05em;
+}
+#dosen {
+  margin: 60px auto;
+  padding: 50px;
+  max-width: 950px;
+  background: white;
+  border-radius: 25px;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+}
+
+#dosen h2 {
+  text-align: center;
+  color: #004aad;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 30px;
+  font-size: 1.8em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1em;
+}
+
+table th {
+  background-color: #004aad;
+  color: white;
+  padding: 14px;
+  text-align: left;
+  letter-spacing: 0.5px;
+}
+
+table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+table tr:hover {
+  background-color: #f0f8ff;
+}
+
+footer {
+  background: linear-gradient(90deg, #002d72, #0077b6);
+  color: white;
+  text-align: center;
+  padding: 25px;
+  margin-top: 50px;
+  box-shadow: 0 -3px 20px rgba(0,0,0,0.1);
+}
+
+section, article {
+  animation: fadeInUp 1s ease forwards;
+  opacity: 0;
+  transform: translateY(40px);
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
